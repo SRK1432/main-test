@@ -4,7 +4,14 @@ import { Link } from "react-router-dom";
 
 const MainFooter = () => {
   return (
-    <div style={{ backgroundColor:"black", color:"whitesmoke" }}>
+    <div style={{ 
+      color:"whitesmoke", 
+      backgroundImage: 'url("https://images.unsplash.com/photo-1561378552-1a7f6f193840?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHNub3clMjBjb3ZlcmVkJTIwbW91bnRhaW4lMjByYW5nZXxlbnwwfHwwfHx8MA%3D%3D")',
+      backgroundSize:'cover',
+      backgroundPosition:'center',
+      padding:'50px',
+      width:'100%'
+    }}>
       <Container style={{display:"flex",justifyContent:"space-between"}}>
         <Row style={{display:"flex",marginLeft:50}}>
           <Col md={3} style={{width:'25%', padding:'10px',marginTop:'50px'}}>

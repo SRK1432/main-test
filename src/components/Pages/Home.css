@@ -1,0 +1,60 @@
+.slide-container {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .slide-container .slide-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .slide-container .caption {
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    z-index: 2;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  
+  .slide-container .caption:hover {
+    color: rgb(250, 79, 6);
+  }
+  
+  .slide-container .date {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    color: #ee0c0c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 2;
+  }
+  
+  .slide-container .watch-trailer-button {
+    position: absolute;
+    margin-right: 1100px;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
