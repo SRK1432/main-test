@@ -1,0 +1,33 @@
+.home-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+
+    & svg{
+        width: 30px;
+        height: 30px;
+        fill: #7c7c7c;
+        margin-bottom: 10px;
+        transition: fill 0.3s ease, transform 0.3s ease;
+        animation: slideUp 1s ease-in-out;
+        cursor: pointer;
+    };
+    & svg:hover {
+        fill: #ff5733;
+        transform: translateY(-10px);
+    };
+}
+@keyframes slideUp {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

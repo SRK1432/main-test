@@ -12,7 +12,6 @@
     position: relative;
     color: #ffffff;
   }
-  
   .slide-container .caption {
     padding: 10px 20px;
     color: #ffffff;
@@ -26,16 +25,14 @@
     cursor: pointer;
     transition-duration: 0.3s;
   }
-  
   .slide-container .caption:hover {
     color: rgb(250, 79, 6);
   }
-  
   .slide-container .date {
     position: absolute;
     bottom: 80px;
     left: 20px;
-    color: #ee0c0c;
+    color: cyan;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 1em;
@@ -43,7 +40,26 @@
     font-style: italic;
     z-index: 2;
   }
-  
+  .slide-container .description{
+    bottom: 20px;
+    color: #8993ef;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .page-number {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  .page-number.active {
+    background-color: #ff0000;
+    color: #fff;
+  }
   .slide-container .watch-trailer-button {
     position: absolute;
     margin-right: 1100px;

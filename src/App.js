@@ -3,7 +3,7 @@ import {Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MainHeader from "./components/Header/MainHeader";
 import MainFooter from "./components/Footer/MainFooter";
 
-import Home from "./components/Pages/Home";
+import Home from "./components/Pages/home/Home";
 import ComingSoon from "./components/Pages/movies/ComingSoon";
 import NowPlaying from "./components/Pages/movies/NowPlaying";
 import FullWidthBanner from "./components/Pages/single-movies/FullWidthBanner";
@@ -36,7 +36,7 @@ const App = () => {
         <Route path="/toprated" element={<TopRated />} />
 
       </Routes>
-        <MainFooter />
+      <MainFooter />
     </Router>
   );
 };

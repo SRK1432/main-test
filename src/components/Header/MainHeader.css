@@ -1,6 +1,5 @@
-/* Header Styling */
 .main-header {
-    background-color: rgb(179, 151, 151); 
+    background-color: rgb(221, 210, 210); 
     padding: 15px 0; 
   }
   
@@ -9,55 +8,44 @@
     align-items: center;
     justify-content: space-between; 
   }
-  
   .header-title {
     color: #151515; 
     font-size: 24px;
     margin: 0; 
   }
-  
   .header-nav {
     display: flex;
     gap: 20px; 
   }
-  
   .nav-item {
     list-style: none; 
     z-index: 1;
   }
-  
   .nav-link {
     color: #0c0b0b; 
     font-size: 18px;
     text-decoration: none;
   }
-  
   .nav-link:hover {
     color: #0a0a0a;
   }
-  
   .nav-dropdown:hover .dropdown-menu {
     display: block; 
-    margin-top: 0; 
-   
   }
-  
   .dropdown-menu {
     display: none; 
     background-color: #343a40; 
     border-radius: 20px;
   }
-  
   .nav-dropdown {
     position: relative; 
   }
-  
   .dropdown-item {
     display: block; 
     color:gray; 
     padding: 10px 20px; 
   }
-  
+
   .dropdown-item:hover {
     background-color: #495057; 
   }
