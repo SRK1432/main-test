@@ -6,8 +6,8 @@ const NowPlayingMovies = () => {
 
     const slideMovies = [
         {
-            url: 'http://demo.amytheme.com/movie/demo/elementor-single-cinema/wp-content/uploads/sites/2/2022/05/img_20-204x350_c.jpg',
-            movie: 'Kubo and Strings..',
+            url: 'https://i.pinimg.com/236x/11/31/d4/1131d4a083a738b79c966f20adc1469d.jpg',
+            movie: 'NOVAH..',
             release : 'Release: February 15,2022',
             genre : 'Genre: Cartoon,comic' ,
             duration : 'Duration: 2hrs 30min',
@@ -15,8 +15,8 @@ const NowPlayingMovies = () => {
             trailer : 'https://www.youtube.com/watch?v=p4-6qJzeb3A'
         },
         {
-            url: 'http://demo.amytheme.com/movie/demo/elementor-single-cinema/wp-content/uploads/sites/2/2022/05/img_19-204x350_c.jpg',
-            movie: 'The Hurricane Heist',
+            url: 'https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2015%2F06%2Fhollywood-movie-posters-redesigned-1.jpg?cbr=1&q=90',
+            movie: 'The DJango',
             release : 'Release: February 15,2022',
             genre : 'Genre: comic,magic' ,
             duration : 'Duration: 2hrs 30min',
@@ -24,8 +24,8 @@ const NowPlayingMovies = () => {
             trailer : 'https://www.youtube.com/watch?v=p4-6qJzeb3A'
         },
         {
-            url: 'http://demo.amytheme.com/movie/demo/elementor-single-cinema/wp-content/uploads/sites/2/2022/05/img_17-204x350_c.jpg',
-            movie: 'Jumanji: Welcome.. ',
+            url: 'https://rukminim2.flixcart.com/image/850/1000/poster/z/g/b/deadpool-comic-book-character-hollywood-movie-poster-original-imaecjz68dxa4ygf.jpeg?q=90&crop=false',
+            movie: 'DeadPool ',
             release : 'Release: January 19,2023',
             genre : 'Genre: Cartoon,Sci-fi' ,
             duration : 'Duration: 2hrs 10min',
@@ -33,7 +33,7 @@ const NowPlayingMovies = () => {
             trailer : 'https://www.youtube.com/watch?v=p4-6qJzeb3A'
         },
         {
-            url: 'http://demo.amytheme.com/movie/demo/elementor-single-cinema/wp-content/uploads/sites/2/2022/05/img_18-204x350_c.jpg',
+            url: 'https://m.media-amazon.com/images/I/81h388vryQS._AC_UF1000,1000_QL80_.jpg',
             movie: 'Death Wish',
             release : 'Release: Jule 25,2022',
             genre : 'Genre: Cartoon,comic' ,
@@ -42,8 +42,8 @@ const NowPlayingMovies = () => {
             trailer : 'https://www.youtube.com/watch?v=p4-6qJzeb3A'
         },
         {
-            url: 'http://demo.amytheme.com/movie/demo/elementor-single-cinema/wp-content/uploads/sites/2/2022/05/img_15-204x350_c.jpg',
-            movie: 'Supersonic',
+            url: 'https://lh3.googleusercontent.com/proxy/IAVNQq_tstpz9PwSlO6GNI15MaaSEPewP5ELF9VspXkaNTqH2J-T6nLnriCTUSbeFunni6LXsFBR_oIgRf0z6WkZ5pDyZihquF7Js9NkpGG9qfbdDupmnggtGx8',
+            movie: 'The Revenent',
             release : 'Release: March 15,2024',
             genre : 'Genre: Cartoon,comic' ,
             duration : 'Duration: 1hrs 30min',

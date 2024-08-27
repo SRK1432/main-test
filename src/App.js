@@ -15,10 +15,12 @@ import DShowAzax from "./components/Pages/show-time/DShowAzax";
 import WShowAzax from "./components/Pages/show-time/WShowAzax";
 import WShowTable from "./components/Pages/show-time/WShowTable";
 import TopRated from "./components/Pages/top-rated/TopRated";
+import TopHeader from "./components/Header/TopHeader";
 
 const App = () => {
   return (
     <Router>
+      <TopHeader />
       <MainHeader />
       <Routes>
 

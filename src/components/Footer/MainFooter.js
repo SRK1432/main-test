@@ -10,7 +10,7 @@ const MainFooter = () => {
       backgroundSize:'cover',
       backgroundPosition:'center',
       padding:'50px',
-      width:'100%'
+      width:'92%'
     }}>
       <Container style={{display:"flex",justifyContent:"space-between"}}>
         <Row style={{display:"flex",marginLeft:50}}>

@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import HomeIcons from './HomeIcons';
-import './Home.css';
 import NowPlayingMovies from './NowPlayingMovies';
+import TopMoviesInThetre from './TopMoviesInThetre';
+import './Home.css';
+
 
 const Home = () => {
   const [slide, setSlide] = useState(0);
@@ -86,8 +88,8 @@ const Home = () => {
     </div>
     <NowPlayingMovies />
     <HomeIcons />
+    <TopMoviesInThetre />
     </>
   );
 };
-
 export default Home;
