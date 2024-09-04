@@ -1,0 +1,49 @@
+/* ShowtimeManagement.css */
+
+.showtime-management {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.showtime-management__title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.showtime-management__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.showtime-management__input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.showtime-management__input--date {
+    padding: 9px; /* Adjusting padding for date input */
+}
+
+.showtime-management__button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.showtime-management__button:hover {
+    background-color: #218838;
+}

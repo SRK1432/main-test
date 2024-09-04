@@ -27,7 +27,7 @@ const MainFooter = () => {
             <h2>Customer Service</h2>
             <ul>
               <li >
-                <Nav.Link style={{ color:"white"}} as={Link} to="/home">Home</Nav.Link>
+                <Nav.Link style={{ color:"white"}} as={Link} to="/">Home</Nav.Link>
               </li>
               <br />
               <li>
@@ -35,7 +35,7 @@ const MainFooter = () => {
               </li>
               <br />
               <li>
-                <Nav.Link style={{ color:"white"}} as={Link} to="#toprated">Top Rated</Nav.Link>
+                <Nav.Link style={{ color:"white"}} as={Link} to="/toprated">Top Rated</Nav.Link>
               </li>
             </ul>
           </Col>

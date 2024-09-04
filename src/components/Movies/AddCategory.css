@@ -1,0 +1,27 @@
+.add-category   {
+    padding: 20px;
+    
+}
+.add-category h2{
+    text-align: center;
+}
+.add-category input,
+.add-category textarea,
+.add-category button{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.add-category button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 15%;
+    cursor: pointer;
+}
+.add-category button:hover{
+    background-color: #0056b3;
+}

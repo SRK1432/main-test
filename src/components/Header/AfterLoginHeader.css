@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: gray;
+    padding: 1px 20px;
+}
+
+.vip-section {
+    display: flex;
+    align-items: center;
+    background-color: #8A2BE2; 
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.vip-icon {
+    margin-right: 5px;
+}
+
+.promo-section {
+    display: flex;
+    
+    margin-left: 20px;
+}
+
+.heading {
+    color: chocolate;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.logout {
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logout-icon {
+    margin-right: 5px;
+}
+.hamburger-icon {
+    font-size: 24px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.sidebar{
+  position: absolute;
+  top: 40px; 
+  right: 0;
+  background-color: #d49c9c;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+  z-index: 2;
+}
+.sidebar.open {
+    display: block;
+    border-radius: 5px;
+}
+.sidebar ul{
+    padding: 0;
+    margin: 20px 0;
+}
+ul li a{
+    color: #011a41;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+ul li a i{
+    width: 40px;
+    text-align: center;
+}
